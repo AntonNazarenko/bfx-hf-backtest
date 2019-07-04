@@ -32,7 +32,8 @@ const run = async () => {
     trades: {},
     candles: {
       [candleKey]: candles,
-    }
+    },
+    fee: 0.002,
   })
 }
 
